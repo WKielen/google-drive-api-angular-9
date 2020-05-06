@@ -1,0 +1,17 @@
+<h1 mat-dialog-title>Shareable links</h1>
+<div mat-dialog-content class="content">
+    <mat-list-item *ngFor="let link of links;let i=index">
+        <div class="linkcontainer">
+            <label class="index">{{i}}.</label>
+            <label class="rawLink">{{link}}</label>
+
+            <button class="copy" mat-menu-item (click)="copyToClipboard(link)">
+                <mat-icon class="icon">file_copy</mat-icon>
+            </button>
+        </div>
+    </mat-list-item>
+</div>
+<div mat-dialog-actions align="end">
+    <!-- <button mat-button [mat-dialog-close]="name" cdkFocusInitial>OK</button> -->
+    <button mat-button  cdkFocusInitial>OK</button>
+</div>

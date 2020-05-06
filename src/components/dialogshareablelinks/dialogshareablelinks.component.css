@@ -1,0 +1,23 @@
+.content {
+    font-family: Consolas;
+}
+
+.copy {
+    display: inline-block;
+    width: 80px;
+}
+
+
+.index {
+    display: inline-block;
+    width: 30px;
+}
+
+.rawLink {
+    display: inline-block;
+    width: 550px;
+}
+
+.linkcontainer {
+    line-height: 48px;
+}

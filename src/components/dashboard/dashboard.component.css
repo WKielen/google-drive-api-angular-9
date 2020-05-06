@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+} 
+th.mat-column-icon, td.mat-column-icon {
+    width: 40px;
+}
+
+
+.folder {
+    cursor: pointer;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.fill-space {
+    flex: 1 1 auto;
+}
+
+.name {
+    margin-top: 3px;
+}
+
+.namecontainer {
+    display: inline-flex;
+}
+
+.shared {
+    margin-left: 6px;   
+    margin-top: -3px;
+}
+
+.version {
+    font-size: 14px;
+}
+
+
